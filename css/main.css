@@ -37,7 +37,7 @@ footer
 {
 	position: fixed;
 	bottom: 0;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 }
 
 .container
@@ -327,7 +327,7 @@ ul.switches a.current:before
 	content: ' ';
 	position: absolute;
 	left: -17%;
-	top: -187%;
+	top: -200%;
 	width: 190%;
 	height: 322%;
 	background: #dbdb17;
