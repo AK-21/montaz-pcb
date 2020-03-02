@@ -37,7 +37,7 @@ footer
 {
 	position: fixed;
 	bottom: 0;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .container
@@ -319,7 +319,7 @@ ul.switches a.current:before
 	box-shadow: 1px 1px 5px 0px black;
 	font-weight: bold;
 	color: #242019;
-	width: 205px;
+	width: 208px;
 }
 
 #copyright:after
@@ -641,6 +641,11 @@ ul.switches a.current:before
 		background: #000000a3;
 		z-index: 9999999;
 	}
+	
+	footer
+	{
+		padding-bottom: 40px;
+	}
 }
 
 @media (max-width:599px)
@@ -803,4 +808,3 @@ ul.switches a.current:before
 		margin-left: 8px;
 	}
 }
-	
