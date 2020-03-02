@@ -16,7 +16,7 @@ html
 
 body
 {
-	background: url(../img/tiles.jpg) fixed;
+	background: url("https://user-images.githubusercontent.com/37296308/75664859-76105e00-5c73-11ea-97f7-db21b7133c68.jpg") fixed;
 	background-size: 100% auto;
 	height:100%;
 	width:100%;
@@ -254,7 +254,7 @@ ul.switches a:before
 	content: "";
 	width: 30px;
 	height: 50px;
-	background-image: url("../img/switch.png");
+	background-image: url("https://user-images.githubusercontent.com/37296308/75664783-55e09f00-5c73-11ea-9ceb-969673ffac2a.png");
 	background-size: 100% 100%;
 	position:absolute;
 	
