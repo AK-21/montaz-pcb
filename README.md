@@ -9,3 +9,5 @@ Web page, for article about PCB assembly (Waiting for content yet).
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
+
+<strong>Preview:<strong> https://ak-21.github.io/montaz-pcb/
