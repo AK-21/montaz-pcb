@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="css/jantar-min.css">
+		<link rel="stylesheet" href="css/main.css">
+		
+        <script src="content/text/content.js"></script>
+        
+		<script src="scripts/scripts_sys.js"></script>
+		<script src="scripts/scripts_content.js"></script>
+		<script src="scripts/scripts_build.js"></script>
+			
+		<meta name="description" content="">
+		<link rel="icon" href="img/favicon.png" type="image/x-icon">		
+	</head>
+	<body>
+		<div id="mobile-nav-glass" onClick="hideMenu()">
+			<nav id="mobile-nav" class="container clf">
+				<ul id="mobile-menu"></ul>
+				<div id="holes-bar"></div>
+			</nav>
+		</div>
+		<main class="container">
+			<div class="row tab">
+				<div class="conveyor left-side col s-10 m-10 l-10 xl-10"></div>					
+				<div id="boards" class="center cell col s-60 m-60 l-60 xl-60">
+					<header class="board">
+						<h1 id="page-header"></h1>
+					</header>
+				</div>					
+				<div class="conveyor right-side col s-30 m-30 l-30 xl-30">
+					<nav>
+						<a id="mobile-menu-button" class="s m only" onClick="showMenu()">
+							<span class="hamburger">
+								<span class = hamburger-layer></span>
+								<span class = hamburger-layer></span>
+								<span class = hamburger-layer></span>
+							</span>
+						</a>
+						<ul id="switches-menu" class="switches l xl only"></ul>
+					</nav>
+					<footer>
+						<div id="first"; class="deco"></div>
+						<div id="second"; class="deco"></div>
+						<div id="copyright-outer">
+							<div id="copyright">
+								&copy; Arkadiusz Kostyra
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</main>		
+		<script src="scripts/scripts_actions.js"></script>
+	</body>	
+</html>
